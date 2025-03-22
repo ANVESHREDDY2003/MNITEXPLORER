@@ -1,0 +1,46 @@
+/* clubs.css */
+
+/* Club Details Card */
+.club-details-card {
+    /* Add any styling for the club details card here */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .club-details-card h2 {
+    /* Add any styling for the club name heading here */
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .club-details-card p {
+    /* Add any styling for the club description here */
+    color: #555;
+  }
+  
+  /* Clubs Container */
+  .clubs-container {
+    /* Add any styling for the clubs container here */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .club{
+    text-align: center;
+    
+  }
+  /* Media Query for Responsive Layout */
+  @media (max-width: 768px) {
+    .clubs-container {
+      /* Adjust the grid columns for smaller screens */
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+  

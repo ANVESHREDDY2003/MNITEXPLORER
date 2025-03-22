@@ -1,0 +1,83 @@
+/* styles/hostels.css */
+/* styles/hostels.css */
+:host {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hostel-description-card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hostel-description-card h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  :host .hostel-description-card p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+.hostels-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .hostel-card {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hostel-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .hostel-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .hostel-card p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Additional CSS for the description section */
+  :host {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  :host p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  :host h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Center the text when no image is available */
+  .no-image-text {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+  
